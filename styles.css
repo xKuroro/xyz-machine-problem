@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&family=Space+Mono&family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+html, body{
+    width: 100%;
+    /* height: 100%; */
+    min-height: fit-content;
+    background: hsl(66, 45%, 44%);
+    gap: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:relative;
+}
+
+.example{
+    width: 100%;
+    max-height: fit-content;
+    height: fit-content;
+    color: greenyellow;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+.input-container{
+    display: flex;
+    padding: 4px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.input-container label{
+    text-align: left;
+    width: 80%;
+}
+
+.input-container span{
+    color:red;
+    font-size: 0.8rem;
+    width: 80%;
+    text-align: left;
+    /* visibility: hidden; */
+
+}
+
+.error-xyz{
+    visibility: hidden;
+}
+.error-numbers{
+    visibility: hidden;
+}
+.error-direction{
+visibility: hidden;
+}
+.example h1{
+    margin-bottom: 9px;
+}
+.output-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 5px;
+    height: 100%;
+    flex-wrap: wrap;
+    color: greenyellow;
+    /* border: 1px solid rgb(11, 226, 0); */
+}
+
+.output-container .box{
+    width: 113px;
+    height: 113px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+    flex-direction: column;
+    padding: 4px;
+    /* border: 1px solid greenyellow; */
+}
+
+.input-container input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid greenyellow;
+}
+
+/* container 2 */
+.output-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 5px;
+    height: 100%;
+    flex-wrap: wrap;
+    color: greenyellow;
+    /* border: 1px solid rgb(11, 226, 0); */
+}
+
+
+.output-container2 .box{
+    width: 113px;
+    height: 113px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3px;
+    flex-direction: column;
+    padding: 4px;
+    border: 1px solid greenyellow;
+}
+.box div{
+    margin: 2px;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+}
+ #submit{
+    background-color: gold;
+    width: 100px;
+}
+#clear{
+    background-color: red;
+    color:beige;
+}
